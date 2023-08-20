@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+font-family: 'Ubuntu', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+body{
+    background-image: linear-gradient(to right,#0a668e,rgb(0, 88, 24));
+    height: 100vh;
+    display: flex;
+}
+li{
+    list-style:none;
+    display: inline-block;
+ position: relative;
+left:620px;
+top: 27px;
+right: 5px;
+transition: 5s;
+transition-property: font-size;
+margin-right: 50px;
+}
+.nav{
+    margin: 46px;
+    text-decoration: none;
+       color: rgba(255, 250, 240, 0.89);
+padding:  3%;
+text-transform: capitalize;
+}
+.nav:hover{
+    text-decoration: none;
+       color: rgba(13, 0, 131, 0.453);
+       font-size:19px;
+       /* transform: rotate(1.5); */
+       transition: .1s;
+transition-property: font-size;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(255, 239, 219);
+    opacity: .75;
+    position: relative;
+    top: 31px;
+    left: 20px;
+}
+.logo:hover{
+
+    list-style: none;
+border: 1px dashed wheat;
+padding: 9px;
+
+}
+.container{
+    border: red 1px solid;
+}
+.imag{
+       position: relative;
+    top: 107px;
+    left: 150px;
+    width: 25%px;
+    height: 300px;
+
+    justify-content: center;
+}
+img{
+      position: relative;
+      left: 376px;
+}
+p{
+   position: relative;
+      left: 220px;  
+      color: rgba(195, 204, 29, 0.84);
+      font-size: larger;
+}
